@@ -1,0 +1,78 @@
+body{
+  background-color: #f3f3f3;
+}
+.form-control:focus{
+  border-color:#28a745 !important;
+  box-shadow: 0 0 0 0.1rem #28a745 !important;
+}
+
+.form-rounded {
+  border-radius: 1.5rem !important;
+  }
+ .hoverpath:hover{
+  border-bottom: 2px solid white  !important;
+  
+  }
+
+
+
+
+  .wallpaper{
+    background-image: url('./assets/photo-1466637574441-749b8f19452f.jpg');
+    background-repeat: no-repeat;
+   background-position: center;
+    
+    
+    
+
+  }
+
+  a:hover{
+    text-decoration:none;
+  }
+  button:hover{
+    text-decoration:none;
+
+  }
+
+  li:hover{
+    text-decoration:none;
+
+  }
+
+  .clicked:hover{
+    background-color:white !important;
+
+  }
+ @media (min-width: 1200px){
+  .recipesContainer{
+    max-width: 1300px !important;
+
+  }
+ }
+ @media (min-width: 992px){
+   .recipesContainer{
+     max-width: 960px;
+   }
+ }
+ @media (min-width: 768px){
+  .recipesContainer{
+    max-width: 720px;
+  }
+}
+
+ .recipesContainer{
+ 
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+.card:hover
+{
+  border: 1px solid #28a745;transition: all 0.1s ease;
+   opacity: 1;    box-shadow: 0 1px 1px 0 #28a745;
+}
+
