@@ -41,7 +41,7 @@ const Form = props => (
          </div>
          
           </form>
-        {searchSuggests.map((suggest,index)=>{return <span key={index} className='badge badge-pill badge-success mr-2' style={{fontSize:'1.1rem',cursor :'pointer'}} onClick={()=>{document.getElementById('input').value = suggest}}>{suggest}</span>})}
+        {searchSuggests.map((suggest,index)=>{return <span key={index} className='badge badge-pill badge-success mr-2 mb-1' style={{fontSize:'1.1rem',cursor :'pointer'}} onClick={()=>{document.getElementById('input').value = suggest}}>{suggest}</span>})}
          </div>
 
 
