@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <p>To install this project, Run the command : npm install</p>
-<br><br>
+
 <b>Features</b>:
 <ul>
   <li>Search recipes</li>
